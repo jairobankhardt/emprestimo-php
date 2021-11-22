@@ -1,22 +1,46 @@
 * {
     font-family: 'Open Sans', sans-serif;
     color: #444444;
-    background-color: #FCFCFC;
+    /* background-color: #FCFCFC; */
+    background-color:gainsboro;
     margin: 0;
     padding: 0;
 }
+
+body {
+    
+}
+
 header {
-    background-color: white;
     padding: 30px 0px;
     text-align: center;
     vertical-align: middle;
     margin: auto;
 }
 
-header > h1, header > p {
-    background-color: white;
+header, header > h1, header > p, footer, footer > p {
+    /* background-color: white; */
+    background-color: bisque;
 }
 
-body {
-    
+nav {
+    margin: 10px 0;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+nav a {
+    background-color: aqua;
+    padding: 10px;
+}
+
+main {
+    padding: 15px 0px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
 }
