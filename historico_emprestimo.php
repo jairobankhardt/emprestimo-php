@@ -31,7 +31,7 @@ include "estrutura_pagina/header_nav.php";
                     </tr>
                 <?php
                 foreach ($resultado as $linha) {
-                    // Busca o usuário que cadastrou o item
+                    // Busca o usuário que emprestou o item
                     $id_usuario = $linha['usuario'];
                     $sql_usuario  = "SELECT * FROM usuarios WHERE id_usuario = '$id_usuario '";
                     $query_usuario  = $PDO->prepare($sql_usuario );
@@ -69,7 +69,7 @@ include "estrutura_pagina/header_nav.php";
                     <tr style="background-color: <?php echo $cor_fundo; ?>;">
                         <td><?php echo $coisas['nome_coisa'] ?></td>
                         <td><?php echo $coisas['categoria'] ?></td>
-                        <td><?php echo $primeiro_nome ?></td>
+                        <td><a href="usuario.php?usuario=<?php echo $id_usuario; ?>"><?php echo $primeiro_nome ?></a></td>
                         <td><?php echo $data_emprestimo ?></td>
                         <td><?php echo $data_combinada ?></td>
                         <td><?php echo $data_devolvido ?></td>

@@ -163,7 +163,7 @@ include "estrutura_pagina/header_nav.php";
                     <tr style="background-color: <?php echo $cor_fundo; ?>;">
                         <td><?php echo $emprestado['nome_coisa'] ?></td>
                         <td><?php echo $emprestado['categoria'] ?></td>
-                        <td><a href="usuario.php?usuario=<?php echo $emprestado['usuario']; ?>"><?php echo $primeiro_nome ?></a></td>
+                        <td><a href="usuario.php?usuario=<?php echo $id_usuemp; ?>"><?php echo $primeiro_nome ?></a></td>
                         <td><?php echo $data_emprestimo ?></td>
                         <td><?php echo $data_combinada ?></td>
                     </tr>
