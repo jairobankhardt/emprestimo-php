@@ -1,0 +1,111 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6F7FB;
+}
+
+header {
+    padding: 30px 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    background-color: #F6F7FB;
+}
+
+header h1 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+nav {
+    text-align: center;
+    background-color: #BFC5D3;
+    font-size: 14px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    width: 900px;
+    margin: auto;
+}
+
+#menu ul li { 
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 16px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    background-color:#93a0bb;
+    color: #ffffff;
+}
+
+main {
+    text-align: center;
+    width: 900px;
+    padding: 20px 0;
+    margin: auto;
+}
+
+form p {
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #BFC5D3;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.bloco_conteudo {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#sucesso {
+    padding: 15px;
+    background-color:rgb(176, 211, 176);
+    border: 1px solid forestgreen;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+#falha {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(243, 184, 184);
+    border: 1px solid rgb(238, 108, 108);
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.tabela_exibicao {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.tabela_exibicao th, .tabela_exibicao td {
+    border: 1px solid gray; 
+    padding: 5px;
+}
